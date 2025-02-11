@@ -1,7 +1,7 @@
 'use strict';
 
-let input = null;
-while (input === null) {
+let input = true;
+while (input) {
   input = prompt('input something:');
 }
 
