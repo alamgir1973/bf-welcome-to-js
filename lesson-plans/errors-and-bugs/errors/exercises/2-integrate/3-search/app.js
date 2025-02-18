@@ -6,18 +6,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: ReferenceError
+  message: ReferenceError: doesExist is not defined
 
-  location:
+  location: Line 35
 
-  life cycle:
+  life cycle: Execution
 
-  the mistake:
+  the mistake: doesExist is not declared
 
-  the fix(es):
+  the fix(es): With 'let' keyword it is declared
 */
 
 whenFormDataChanges('search-input', () => {
@@ -32,7 +32,7 @@ whenFormDataChanges('search-input', () => {
 
   // --- do the search ---
 
-  doesExist = false;
+  let doesExist = false;
 
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);

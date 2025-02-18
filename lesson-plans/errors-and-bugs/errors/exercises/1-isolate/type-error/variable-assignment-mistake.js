@@ -6,22 +6,22 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: SyntaxError: Failed to execute 'appendChild' on 'Node': Invalid left-hand side in assignment
 
-  location:
+  location: Line 25
 
-  life cycle:
+  life cycle: Creation
 
-  the mistake:
+  the mistake: Variable should not be boolean
 
-  the fix(es):
+  the fix(es): Variable name change to 'isHappy'
 */
 
 let isHappy = false;
 
-true = isHappy;
+isHappy = true;
 
 

@@ -6,20 +6,20 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: SyntaxError: Failed to execute 'appendChild' on 'Node': Unexpected string
 
-  location:
+  location : line 23
 
-  life cycle:
+  life cycle: Execution
 
-  the mistake:
+  the mistake: It is single quote
 
-  the fix(es):
+  the fix(es): Replace double quote
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
+const quotesInQuotes = "remind yourself ''i can do this!'' at least once a day";
 
 
