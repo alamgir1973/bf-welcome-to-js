@@ -5,22 +5,22 @@
 console.log('--- in execution phase ---');
 
 
+
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: SyntaxError: Failed to execute 'appendChild' on 'Node': Invalid or unexpected token
 
-  location:
+  location: line 24
 
-  life cycle:
+  life cycle: Execution
 
-  the mistake:
+  the mistake: Line break
 
-  the fix(es):
+  the fix(es): Unbreak the line
 */
 
-const a = 'this is
-two lines';
+const a = 'this is two lines';
 
 

@@ -9,9 +9,9 @@
 
 
   experiment 1
-    line:
-    why:
-    trying:
+    line: 25
+    why: character variable in the middle and mirrored variable both sides
+    trying: mirrored in the middile and character variable both sides
 
 */
 
@@ -22,7 +22,7 @@ while (text === null) {
 
 let mirrored = '|';
 for (const character of text) {
-  mirrored = mirrored + character + mirrored;
+  mirrored = character + mirrored + character;
 }
 
 alert(mirrored);

@@ -9,9 +9,9 @@
 
 
   experiment 1
-    line:
-    why:
-    trying:
+    line: 25
+    why: reading 'excited' variable is missing
+    trying: add 'excited' before character variable at line 25
 
 */
 
@@ -22,7 +22,7 @@ while (text === null) {
 
 let excited = '';
 for (const character of text) {
-  excited = character + '!';
+  excited = excited + character + '!';
 }
 
 alert(excited);

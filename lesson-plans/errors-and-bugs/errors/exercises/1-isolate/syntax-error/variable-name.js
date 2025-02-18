@@ -7,21 +7,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: SyntaxError: Failed to execute 'appendChild' on 'Node': Unexpected number
 
-  location:
+  location: Line 25
 
-  life cycle:
+  life cycle: Creation
 
-  the mistake:
+  the mistake: Variable name not should be number
 
-  the fix(es):
+  the fix(es): add variable name 'numThree'
 */
 
 
-const 3 = 'three';
+const numThree = 'three';
 
 
